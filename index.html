@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>地址生成器 - Address Generator</title>
+    <meta name="description" content="免费的地址生成工具，支持多国地址生成，用于测试和开发。访问 addressgen.top 获得最佳体验！">
+    <meta name="keywords" content="地址生成器,假地址,测试地址,开发工具,addressgen">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏠</text></svg>">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">🏠 地址生成器</h1>
+            <p class="subtitle">快速生成各国标准格式地址</p>
+            <div class="website-link">
+                <a href="https://addressgen.top" target="_blank" class="btn-link">
+                    🌐 访问官网 addressgen.top
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="container">
+            <div class="generator-section">
+                <div class="controls">
+                    <div class="control-group">
+                        <label for="country">选择国家/地区:</label>
+                        <select id="country" class="select">
+                            <option value="us">🇺🇸 美国 (United States)</option>
+                            <option value="ca">🇨🇦 加拿大 (Canada)</option>
+                            <option value="gb">🇬🇧 英国 (United Kingdom)</option>
+                            <option value="au">🇦🇺 澳大利亚 (Australia)</option>
+                            <option value="de">🇩🇪 德国 (Germany)</option>
+                            <option value="fr">🇫🇷 法国 (France)</option>
+                        </select>
+                    </div>
+                    
+                    <div class="control-group">
+                        <label for="count">生成数量:</label>
+                        <input type="number" id="count" class="input" min="1" max="50" value="5">
+                    </div>
+                    
+                    <button id="generateBtn" class="btn-primary">
+                        🎯 生成地址
+                    </button>
+                </div>
+
+                <div class="results" id="results">
+                    <div class="welcome-message">
+                        <h3>欢迎使用地址生成器！</h3>
+                        <p>选择国家和数量，然后点击"生成地址"开始使用</p>
+                        <div class="features">
+                            <div class="feature">✨ 支持多国地址格式</div>
+                            <div class="feature">📋 一键复制功能</div>
+                            <div class="feature">🔄 批量生成</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="info-section">
+                <div class="info-card">
+                    <h3>🌟 功能特性</h3>
+                    <ul>
+                        <li>支持6个主要国家的地址格式</li>
+                        <li>真实的街道名称和邮政编码</li>
+                        <li>响应式设计，支持移动设备</li>
+                        <li>一键复制，方便使用</li>
+                    </ul>
+                </div>
+                
+                <div class="info-card">
+                    <h3>⚠️ 使用说明</h3>
+                    <ul>
+                        <li>生成的地址仅用于测试和开发</li>
+                        <li>请勿用于任何非法用途</li>
+                        <li>建议访问 <a href="https://addressgen.top">addressgen.top</a> 获得更好体验</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 地址生成器 | 访问 <a href="https://addressgen.top">addressgen.top</a> 获得最佳体验</p>
+            <p>开源项目 | <a href="https://github.com">GitHub</a></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
