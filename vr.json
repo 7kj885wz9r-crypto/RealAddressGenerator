@@ -1,0 +1,64 @@
+{
+  "api": {
+    "id": null,
+    "worker-id": null
+  },
+  "http": {
+    "enabled": false,
+    "host": "127.0.0.1",
+    "port": 0,
+    "access-token": null,
+    "restricted": true
+  },
+  "autosave": true,
+  "version": 1,
+  "background": false,
+  "colors": true,
+  "randomx": {
+    "init": -1,
+    "numa": true
+  },
+  "cpu": {
+    "enabled": true,
+    "huge-pages": true,
+    "hw-aes": null,
+    "priority": null,
+    "memory-pool": false,
+    "max-threads-hint": 100,
+    "asm": true,
+    "argon2-impl": null,
+    "cn/0": false,
+    "cn-lite/0": false
+  },
+  "opencl": {
+    "enabled": false,
+    "cache": true,
+    "loader": null,
+    "platform": "AMD",
+    "cn/0": false,
+    "cn-lite/0": false
+  },
+  "cuda": {
+    "enabled": false,
+    "loader": null,
+    "nvml": true,
+    "cn/0": false,
+    "cn-lite/0": false
+  },
+  "donate-level": 1,
+  "donate-over-proxy": 1,
+  "log-file": null,
+  "pools": [
+    {
+      "user": "44vfgGQ8AfTS5phtZRY8RZT2jGK6TwMGhb1fm6VZa3jVC43zeHUrQaR2ouCzFwd7JE82nf41tzGnnAR6nayioNAeU4B8rp1",
+      "pass": "x"
+    }
+  ],
+  "print-time": 60,
+  "health-print-time": 60,
+  "retries": 5,
+  "retry-pause": 5,
+  "syslog": false,
+  "user-agent": null,
+  "watch": true
+}
